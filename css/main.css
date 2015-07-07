@@ -1,0 +1,26 @@
+.page-title {
+  font-size: 36px;
+  color: #464646;
+}
+.inline-image {
+  display: inline-block;
+  border: 1px solid #464646;
+  border-radius: 3px; 
+}
+.inline-image.active {
+  border: 1px solid #000;  
+}
+h4 {
+  font-size: 24px;
+  color: #464646;
+  text-decoration: underline;
+}
+p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #464646;  
+}
+footer p {
+  font-size: 16px;
+  color: #ccc;
+}
