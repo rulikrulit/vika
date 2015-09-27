@@ -56,7 +56,7 @@ footer p {
   padding: 3px;
   width: 19%;
   text-align: center
-}
+
 .inline-block_characters {
   display: inline-block;
   width: 19%;
@@ -64,4 +64,36 @@ footer p {
   border: 1px solid black;
   vertical-align: top;
   text-align: center
+}
+.clearfix:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+    }
+.clearfix {
+      zoom: 1;
+    }
+
+.column-left {
+  float: left;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.column-center {
+display: inline-block;
+float: left;
+border: 1px solid black;
+margin: 5px;
+width: 30%;
+vertical-align: top;
+text-align: center;
+}
+
+.column-right {
+  float: right;
+  border: 1px solid black;
+  text-align: center;
 }
