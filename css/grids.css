@@ -1,0 +1,56 @@
+/* GRIDS */
+* {
+  box-sizing: border-box;
+}
+
+
+/* common */
+.column_one-third {
+  width: 30%;
+}
+.column {
+  margin-right: 5%;
+}
+.column:last-child {
+  margin-right: 0;
+}
+
+/* inline */
+.inline-grid {
+  font-size: 0;
+}
+.inline-grid > .column {
+  display: inline-block;
+  font-size: 24px;
+  vertical-align: top;
+}
+
+/* float */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.float-grid > .column  {
+  float: left;
+}
+
+
+/* Decorations */
+.column {
+  min-height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 24px;
+}
+.inline-grid .column {
+  background-color: #ff0011;
+}
+.float-grid .column {
+  background-color: #1100ff;
+}
