@@ -1,1 +1,1 @@
-Vika's training project 123
+Vika's training project
