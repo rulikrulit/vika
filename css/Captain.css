@@ -1,0 +1,29 @@
+{
+  box-sizing: border-box;
+}
+
+/*main*/
+
+.column_1-3 {
+width: 30%;
+text-align: center;
+}
+
+.column {
+  margin-right: 5%;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+/*mine inline*/
+
+.inline-grid {
+  font-size: 0;
+}
+.inline-grid > .column {
+  display: inline-block;
+  font-size: 24px;
+  vertical-align: top;
+}

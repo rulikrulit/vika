@@ -26,7 +26,11 @@
 }
 
 /* float */
-.clearfix:before,
+.clearfix:before {
+  content: " ";
+  display: table;
+  padding-bottom: 3px;
+}
 .clearfix:after {
     content: " ";
     display: table;
@@ -45,12 +49,5 @@
   border: 1px solid black;
   text-align: center;
   line-height: 40px;
-  color: #fff;
   font-size: 24px;
-}
-.inline-grid .column {
-  background-color: #ff0011;
-}
-.float-grid .column {
-  background-color: #1100ff;
 }

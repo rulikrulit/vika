@@ -1,99 +1,62 @@
-.page-title {
-  font-size: 36px;
-  color: #464646;
+.clear {
+	clear: both;
 }
-.inline-image {
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../images/font_image.jpg");
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	min-width: 1170px !important; 
+}
+.container {
+  min-width: 1170px !important;
+  max-width: none !important;
+}
+nav .top-header {
+	width: 100% ;
+	margin: 0;
+	background-color: #000;
+	z-index: 1000;
+	position: center;
+}
+	.top-header ul { height: 115px; }
+
+.column {
+width: 14%;
+text-align: center;
+}
+
+.inline-grid {
+  font-size: 0;
+}
+.inline-grid > .column {
   display: inline-block;
-  border: 1px solid #464646;
-  border-radius: 3px; 
-}
-.inline-image.active {
-  border: 1px solid #000;  
-}
-h2 {
-  font-size: 32px;
-  color: #191970;
-  text-decoration: none;
-}
-h4 {
   font-size: 24px;
-  color: #464646;
-  text-decoration: none;
+  line-height: 20px;
+  vertical-align: middle;
 }
-h5 {
-  font-size: 18px;
-  color: #191970;
-  text-decoration: none;
+
+a {
+	text-decoration: none;
+	color: #A9A9A9;
+	font-family: 'Oldtown', fantasy;
+}
+a:hover {
+	color: #DCDCDC;
+}
+
 }
 p {
   margin: 10px 0;
   font-size: 18px;
   color: #464646;  
-}
+ } 
 footer p {
   font-size: 16px;
-  color: #ccc;
-}
-
-.float {
-  float: left;
-  border: 1px;
-  padding: 10px;
-  width: 20%;
-  text-align: center
-}
-.inline-block {
-  display: inline-block;
-  width: 22%;
-  height: 20%;
-  border: 5px;
-  vertical-align: top;
-  text-align: center
-}
-.float_text {
-  float: left;
-  border: 1px solid black;
-  padding: 3px;
-  width: 19%;
-  text-align: center
-
-.inline-block_characters {
-  display: inline-block;
-  width: 19%;
-  height: 20%;
-  border: 1px solid black;
-  vertical-align: top;
-  text-align: center
-}
-.clearfix:after {
-      content: ".";
-      display: block;
-      height: 0;
-      clear: both;
-      visibility: hidden;
-    }
-.clearfix {
-      zoom: 1;
-    }
-
-.column-left {
-  float: left;
-  border: 1px solid black;
-  text-align: center;
-}
-
-.column-center {
-display: inline-block;
-float: left;
-border: 1px solid black;
-margin: 5px;
-width: 30%;
-vertical-align: top;
-text-align: center;
-}
-
-.column-right {
-  float: right;
-  border: 1px solid black;
-  text-align: center;
+  color: #A9A9A9;
 }
