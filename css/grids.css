@@ -51,3 +51,34 @@
   line-height: 40px;
   font-size: 24px;
 }
+.new_task {
+  display: table;
+  table-layout:fixed;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  width: 100%;
+}
+.main {
+  display: table;
+  table-layout:fixed;
+  border: 1px solid black;
+  width: 20%;
+  float: left;
+}
+.main > :first-child {
+  margin: 0;
+}
+.main > :last-child {
+  margin: 0;
+}
+article, aside {
+  display: table-cell;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+}
+aside {
+  width: 25%;
+  border-right: 1px solid black;
+}

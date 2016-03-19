@@ -1,0 +1,25 @@
+.clear {
+	clear: both;
+}
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../images/font_image.jpg");
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	min-width: 1170px !important;
+	color: #FFF8DC; 
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+.inline-image {
+ display: inline-block;
+ margin-left: 15% ;
+}
+
