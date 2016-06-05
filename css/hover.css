@@ -38,6 +38,49 @@
     transition: all 0.4s ease-in-out;
 }
 
+<<<<<<< HEAD
+=======
+.ch-img-1 {
+    background-image: url(../images/characters/standard_xlarge.jpg);
+}
+ 
+.ch-img-2 {
+    background-image: url(C:/Users/Victoria/vika/images/characters/Cap.jpg);
+}
+ 
+.ch-img-3 {
+    background-image: url(C:/Users/Victoria/vika/images/characters/Hul.jpg);
+}
+
+.ch-img-4 {
+    background-image: url(C:/Users/Victoria/vika/images/characters/Thor.jpg);
+}
+
+.ch-img-5 {
+    background-image: url(C:/Users/Victoria/vika/images/characters/Iron.jpg);
+}
+
+.ch-img-6 {
+    background-image: url(C:/Users/Victoria/vika/images/characters/Luke.jpg);
+}
+
+.ch-img-7 {
+    background-image: url(C:/Users/Victoria/vika/images/characters/Widow.jpg);
+}
+
+.ch-img-8 {
+    background-image: url(C:/Users/Victoria/vika/images/characters/Daredevil.jpg);
+}
+
+.ch-img-9 {
+    background-image: url(C:/Users/Victoria/vika/images/characters/America.jpg);
+}
+
+.ch-img-10 {
+    background-image: url(C:/Users/Victoria/vika/images/characters/Wolverine.jpg);
+}
+
+>>>>>>> e16c4c4f44650f5ed0e67ac5e2b4f8535af87c2d
 .ch-info {
     position: absolute;
     background: rgba(255,255,255, 0.4);
